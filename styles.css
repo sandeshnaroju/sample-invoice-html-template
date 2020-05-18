@@ -1,0 +1,135 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.border {
+    background-color: white;
+    width: 19cm;
+    margin-left: 1cm;
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    border-color: teal;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.parent-border {
+    background-color: white;
+    width: 21cm;
+    height: auto;
+    border-color: teal;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.table-row-border>th {
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom-color: teal;
+    border-top-color: teal;
+    border-width: 2px;
+    border-style: solid;
+    margin: 0;
+    padding: 0;
+    width: 4cm;
+    height: 1cm;
+    text-align: center;
+    color: teal;
+}
+
+td {
+    height: 1cm;
+    text-align: center;
+}
+
+.table-addresses>th {
+    color: teal;
+    text-align: center;
+    width: 4cm;
+    text-align: left;
+}
+
+table.invoice-table-address {
+    margin-left: 1cm;
+}
+
+table.invoice-table-address td {
+    font-size: 15px;
+    text-align: left;
+    height: 0.5cm;
+}
+
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+}
+
+.invoice-table {
+    margin-left: 1cm;
+    margin-right: 1cm;
+    /* border: teal 1px solid; */
+}
+
+.parent-invoice-logo-type {
+    height: 3cm;
+    /* border: teal 1px solid; */
+}
+
+.parent-invoice-table-address {
+    margin-top: 1cm;
+    height: 4cm;
+    /* border: teal 1px solid; */
+}
+
+.parent-invoice-table {
+    margin-top: 1cm;
+    /* border: teal 1px solid; */
+}
+
+.parent-invoice-total {
+    margin-top: 1cm;
+    /* border: teal 1px solid; */
+    height: 1cm;
+}
+
+.parent-invoice-terms {
+    margin-top: 4cm;
+    /* border: teal 1px solid; */
+    height: 5cm;
+}
+
+.invoice-type {
+    font-size: 50px;
+    font-weight: 700;
+    color: teal;
+    left: 1cm;
+    bottom: 0cm;
+}
+
+.invoice-logo {
+    right: 1cm;
+    bottom: 0cm;
+}
+
+.invoice-total-text {
+    font-size: 30px;
+    font-weight: 700;
+    color: teal;
+    left: 1cm;
+    bottom: 0cm;
+}
+
+.invoice-total {
+    right: 1cm;
+    bottom: 0cm;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.invoice-terms {
+    left: 1cm;
+    bottom: 0cm;
+}
